@@ -10,17 +10,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="../animate.css" rel="stylesheet" />
+        <script src="../assets/js/wow.js"> </script>
+        <script> 
+            new WOW().init();
+        </script>
     </head>
     <body>
         <div id="conteiner2">
             <header>
-                <span> Lunes a Viernes 9 a 18:30 hs / Sabados 9 a 14 hs </span>
+                <span class="wow animate__lightSpeedInRight" data-wow-duration="2s" data-wow-delay="0s"> Lunes a Viernes 9 a 18:30 hs / Sabados 9 a 14 hs </span>
             </header>
             <div id="icono" class="center"> 
                 <img src="../assets/a.jpg"  class="perro">
             </div>
             <div id="menuu">
-                <h1>GALERIA</h1>
+                <h1 class="wow animate__rubberBand" data-wow-duration="1s" data-wow-delay="1.2s">GALERIA</h1>
                 <nav>
                     <ul>
                         <li>
@@ -81,7 +86,7 @@
 
                 </div>     
             </div>
-            <footer >
+            <footer class="colorfooter">
                 <span> Copyright ... </span>
             </footer> 
         </div>
