@@ -62,12 +62,16 @@ div#foto {
 }
 footer {
     grid-area: miFooter;
-    background-color: rgb(124, 2, 124);
+    background-color: #7c027c;
     font-size: 20px;
     color: white;
     display: flex;
     align-items: center;
 }
+.colorfooter {
+    background-image:linear-gradient(to left, #7c027c, #49007B, #7c027c);
+}
+
 footer span {
     padding-left: 5%;
 }
